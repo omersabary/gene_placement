@@ -1,6 +1,7 @@
 # gene_placement
-Gene Placement Project - UCSD 
-This repository summerizes the Gene Placement project I did for Prof. Siavash Mirarab at UCSD. 
+
+**Gene Placement Project - UCSD 
+**This repository summerizes the Gene Placement project I did for Prof. Siavash Mirarab at UCSD. 
 
 Generally speaking, the goal was to approximate the distance between two species in a given phylogenetic tree. The approximation is based on their weighted hamming distance, where the weights are given to the different site. 
 The site weight, also called site multipliers are computed based on the site entropies. 
@@ -18,6 +19,11 @@ OptimizerNewVer.py - The optimizer the finds the optimal site multipliers. The o
 
 SiteEntropies.py - Calculates the site entropies and the naive multipliers (see more details in the documents). 
 
-Tree_distance_calc.py - utiliy function to calculate the tree distance based on the nw_distance. 
+Tree_distance_calc.py - utiliy function to calculate the tree distance based on the nw_distance function of nw_utils. 
 
 PlotNewVer.py - visualiztion of the results. Picks 10-20 random pairs and presents the tree distance, the regular hamming distance and the wieght hamming distance and compare them. 
+
+
+References: 
+1. nw_utils: https://github.com/nwutils/nw-utils
+2. TreeClluster: https://github.com/niemasd/TreeCluster
